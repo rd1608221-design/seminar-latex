@@ -1,0 +1,124 @@
+% Beamer presentation: Generative AI in Virtual Reality
+\documentclass[11pt]{beamer}
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+\usepackage{graphicx}
+\usepackage{hyperref}
+\title[Gen AI in VR]{Generative AI in Virtual Reality}
+\author{Surya Sekhar Panda \\ Seminar: [Course / Dept]}
+\institute{Sambalpur University Institute of Information and Technology}
+\date{\today}
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Introduction}
+\begin{frame}{What is Generative AI?}
+  \begin{itemize}
+    \item AI systems that \emph{create} new content (text, images, 3D models, audio, video).
+    \item Examples: text generation, image synthesis, 3D shape generation, procedural content.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{What is Virtual Reality (VR)?}
+  \begin{itemize}
+    \item Immersive, computer-generated 3D environments accessed via headsets/controllers.
+    \item Key features: presence, interaction, and stereoscopic view.
+  \end{itemize}
+\end{frame}
+
+\section{Why Put Gen AI in VR?}
+\begin{frame}{Motivation}
+  \begin{itemize}
+    \item Reduce manual content creation (levels, assets, dialogue).
+    \item Personalize experiences in real-time for each user.
+    \item Enable adaptive storytelling and intelligent NPCs.
+    \item Scale training and simulation scenarios dynamically.
+  \end{itemize}
+\end{frame}
+
+\section{How It Works}
+\begin{frame}{Core Components}
+  \begin{itemize}
+    \item \textbf{Content generation models}: 3D generators, image models, audio/text models.
+    \item \textbf{Runtime integration}: Game engine (Unity/Unreal) + AI backend.
+    \item \textbf{Interaction layer}: Speech-to-text, intent recognition, dialogue manager.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Typical Architecture}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{ff.jpg}
+  \end{center}
+\end{frame}
+
+\section{Tools and Libraries}
+\begin{frame}{Recommended Tools}
+  \begin{itemize}
+    \item Game engines: Unity, Unreal Engine.
+    \item 3D tools: Blender, MagicaVoxel.
+    \item AI & services: Generative model APIs (text, image, 3D), speech APIs.
+    \item Middleware: ROS (for robotics training), WebSockets / REST for realtime comms.
+  \end{itemize}
+\end{frame}
+
+\section{Use Cases}
+\begin{frame}{Key Applications}
+  \begin{itemize}
+    \item Education: adaptive labs and historical recreations.
+    \item Healthcare: procedural patient simulations for training.
+    \item Entertainment: personalized VR storytelling and open-world generation.
+    \item Design & Architecture: instant walkthroughs of AI-generated concepts.
+  \end{itemize}
+\end{frame}
+
+\section{Challenges \& Ethics}
+\begin{frame}{Technical Challenges}
+  \begin{itemize}
+    \item Latency and real-time constraints.
+    \item Asset quality and coherence across generated content.
+    \item Model size, compute cost, and on-device limits.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Ethical Concerns}
+  \begin{itemize}
+    \item Deepfake risks and misinformation in immersive spaces.
+    \item Privacy: voice data and behavioral tracking.
+    \item Bias in generated content and representation issues.
+  \end{itemize}
+\end{frame}
+
+\section{Conclusion}
+\begin{frame}{Future Outlook}
+  \begin{itemize}
+    \item Better multimodal models will improve realism and interactivity.
+    \item Edge inference and optimized models will reduce latency.
+    \item Wider adoption in training, entertainment, and remote collaboration.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{References \& Further Reading}
+  \begin{itemize}
+    \item Papers and articles on generative models, procedural content, and VR.
+    \item (Add specific references or API docs you used.)
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Thank you}
+  \begin{center}
+    Questions? \\
+    \vspace{3mm}
+    Contact: \href{mailto:youremail@example.com}{youremail@example.com}
+  \end{center}
+\end{frame}
+
+\end{document}
